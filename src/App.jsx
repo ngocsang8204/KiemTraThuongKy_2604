@@ -6,6 +6,7 @@ import viteLogo from '/vite.svg'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Cau1 from './Components/Cau1';
 import Cau2 from './Components/Cau2';
+import Cau3 from './Components/Cau3';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,8 @@ function App() {
       
       <Cau1 />
       <Cau2 />
+      <Cau3 />
+
     </>
   )
 }

@@ -1,0 +1,41 @@
+.university-footer {
+    background-color: #f0f0f0;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.footer-heading {
+    color: #8b0000;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+.footer-content {
+    color: #333;
+}
+
+.footer-content a {
+    color: #00468b;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-content ul li {
+    margin-bottom: 8px;
+}
+
+
+/* Responsive adjustments */
+
+@media (max-width: 767.98px) {
+    .col-md-3 {
+        margin-bottom: 20px;
+    }
+}
