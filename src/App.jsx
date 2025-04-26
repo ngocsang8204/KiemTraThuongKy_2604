@@ -13,6 +13,7 @@ import Cau6 from './Components/Cau6';
 import Cau7 from './Components/Cau7';
 import Cau8 from './Components/Cau8';
 import Cau9 from './Components/Cau9';
+import Cau10 from './Components/Cau10';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -45,8 +46,8 @@ function App() {
       <hr />
 
       <div style={{ marginBottom: '20px', marginTop: '20px' }}>
-        <h2>Câu 7</h2>
-        <Cau7 />
+        <h2>Câu 10</h2>
+        <Cau10 />
       </div>
       <hr />
 
@@ -60,20 +61,7 @@ function App() {
         <h2>Câu 4</h2>
         <Cau4 />
       </div>
-
-      <div style={{ marginBottom: '20px', marginTop: '20px' }}>
-        <h2>Câu 8</h2>
-        <Cau8 />
-      </div>
-      <hr />
-
-      <div style={{ marginBottom: '20px', marginTop: '20px' }}>
-        <h2>Câu 9</h2>
-        <Cau9 />
-      </div>
-      <hr />
     </div>
-      
     </>
   )
 }

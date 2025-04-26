@@ -261,13 +261,6 @@ export default function Cau7() {
               </ul>
             </div>
           </div>
-
-          {/* Placeholder for the rest of the layout */}
-          <div className="col-md-9">
-            <div className="content-placeholder">
-              <p>Content area for other sections</p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
