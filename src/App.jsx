@@ -8,7 +8,7 @@ import Cau1 from './Components/Cau1';
 import Cau2 from './Components/Cau2';
 import Cau3 from './Components/Cau3';
 import Cau4 from './Components/Cau4';
-
+import Cau5 from './Components/Cau5';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,8 +17,10 @@ function App() {
       
       <Cau1 />
       <Cau2 />
+      <Cau5 />
       <Cau3 />
       <Cau4 />
+      
     </>
   )
 }
